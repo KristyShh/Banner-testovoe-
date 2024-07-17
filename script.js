@@ -23,16 +23,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
         modalBody.innerHTML = `
             <h2>Войти в систему</h2>
             <form id="loginForm">
-                <label for="email/tel"></label>
-                <input type="email/telephone" id="email" name="email/tel" required placeholder="Email/Телефон" ><br><br>
+                <label for="contact"></label>
+                <input type="text" id="contact" name="contact" required placeholder="Email/Телефон" >
                 <label for="password"></label>
-                <input type="password" id="password" name="password" placeholder="Пароль" required><br><br>
-                <label for="remember">
+                <input type="password" id="password" name="password" placeholder="Пароль" required>
+                <label class="checkbox" for="remember">
                     <input type="checkbox" id="remember" name="remember" value="remember-password">Запомнить пароль
                 </label><br>
                 <a href="#">Восстановить</a>
-                <button type="submit">Войти</button>
-                <button type="submit">Зарегистрироваться</button>
+                <button class='btn-enter' type="submit">Войти</button>
+                <button class='btn-registration' type="submit">Зарегистрироваться</button>
             </form>`;
     }
 });
