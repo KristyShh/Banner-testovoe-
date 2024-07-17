@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const modal = document.getElementById("modal");
     const btn = document.getElementById("openModal");
-    const span = document.getElementsByClassName("close")[0];
+    const close = document.getElementsByClassName("close")[0];
 
     btn.onclick = function() {
         modal.style.display = "block";
         loadLoginForm();
     }
 
-    span.onclick = function() {
+    close.onclick = function() {
         modal.style.display = "none";
     }
 

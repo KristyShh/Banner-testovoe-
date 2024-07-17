@@ -42,7 +42,6 @@ html,body {
     justify-content: space-between;
     border-radius: 10px;
     margin: 40px 40px;
-    
 }
 
 .image {
@@ -119,8 +118,8 @@ button {
     background-color: var(--primary-color);
     width: 2px;
     height: 15px;
-    top: 38%;
-    left: 50%;
+    top: 37%;
+    left: 49%;
     transform: rotate(47deg);
 }
 
@@ -282,9 +281,6 @@ a {
     cursor: pointer;
 }
 
-/* Адаптивные стили */
-
-
 @media (max-width: 1440px) {
     .adaptive-block {
         max-width: 1440px;
@@ -362,12 +358,12 @@ a {
         padding: 0px;
     }
     .circle::before {
-        top: 38%;
+        top: 35%;
     }
     .circle::after {
         transform: rotate(48deg);
         height: 13px;
-        left: 52%;
+        left: 48%;
     }
     .btn-enter, .btn-registration {
         font-size: 16px;
@@ -444,7 +440,7 @@ a {
     }
 }
 
-/* Browser-specific settings for better compatibility */
+/* Browsers */
 
 body {
     -webkit-font-smoothing: antialiased;
